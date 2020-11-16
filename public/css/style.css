@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open Sans&display=swap');
-
 :root {
 	--dark-color-a: #667aff;
 	--dark-color-b: #7386ff;
@@ -128,6 +127,7 @@ a {
 }
 
 /* Join Page */
+
 .join-container {
 	max-width: 500px;
 	margin: 80px auto;
@@ -180,10 +180,38 @@ a {
 }
 
 @media (max-width: 700px) {
+	#parent {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	#blurred {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		-webkit-filter: blur(5px);
+		-moz-filter: blur(5px);
+		-o-filter: blur(5px);
+		-ms-filter: blur(5px);
+		filter: blur(5px);
+		height: 222px;
+		background-color: #ccc;
+	}
+	#text {
+		position: absolute;
+		top: 50%;
+		width: 50%;
+		left: 25%;
+		font-size: 2vw;
+		color: #fff;
+	}
 	.chat-main {
 		display: block;
 	}
-
 	.chat-sidebar {
 		display: none;
 	}

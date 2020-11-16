@@ -7,7 +7,7 @@
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Brad Traversy",
+  "author": "Torin Stephen",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
@@ -16,5 +16,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  }
+  },
+  "repository": "https://github.com/torin-stephen/chatcord.git"
 }
