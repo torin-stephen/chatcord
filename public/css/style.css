@@ -113,6 +113,8 @@ a {
 .chat-form-container {
 	padding: 20px 30px;
 	background-color: var(--dark-color-a);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 .chat-form-container form {
@@ -161,6 +163,13 @@ a {
 }
 
 .join-main input[type='text'] {
+	font-size: 16px;
+	padding: 5px;
+	height: 40px;
+	width: 100%;
+}
+
+.join-main input[type='password'] {
 	font-size: 16px;
 	padding: 5px;
 	height: 40px;
