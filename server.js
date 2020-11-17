@@ -8,10 +8,10 @@ const {
   getCurrentUser,
   userLeave,
   getRoomUsers
-} = require('./utils/users');
+} = require('./utils/users')
 
 const app = express();
-const server = http.createServer(app);
+const server = http.createServer( app);
 const io = socketio(server);
 
 // Set static folder
